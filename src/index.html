@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulação de Votação - Sistema Proporcional</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>Simulação de Votação - Sistema Proporcional</h1>
+    <form id="votingForm">
+        <label for="totalVotos">Total de Votos Válidos:</label>
+        <input type="number" id="totalVotos" required>
+
+        <label for="numCargos">Número de Cargos:</label>
+        <input type="number" id="numCargos" required>
+
+        <h3>Votos por Candidato</h3>
+        <label for="candidato1">Candidato 1 (Ana):</label>
+        <input type="number" id="candidato1" required>
+
+        <label for="candidato2">Candidato 2 (Bruno):</label>
+        <input type="number" id="candidato2" required>
+
+        <label for="candidato3">Candidato 3 (Carlos):</label>
+        <input type="number" id="candidato3" required>
+
+        <label for="candidato4">Candidato 4 (Daniela):</label>
+        <input type="number" id="candidato4" required>
+
+        <label for="candidato5">Candidato 5 (Eduardo):</label>
+        <input type="number" id="candidato5" required>
+
+        <button type="button" onclick="calcular()">Calcular</button>
+    </form>
+
+    <div id="resultados">
+        <h3>Resultados</h3>
+        <p id="qe">Quociente Eleitoral (QE): </p>
+        <p id="vnm">Votação Nominal Mínima (VNM): </p>
+        <p id="distribuicao">Distribuição de Vagas: </p>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
