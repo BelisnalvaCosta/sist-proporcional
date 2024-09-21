@@ -3,11 +3,11 @@ Este código foi feito na IDEA IntelliJ, linguagem Java, HTML, Javascript e CSS 
 Utilizei a assistência da IA ChatGPT para compreender melhor os conceitos do Sistema Proporcional Eleitoral e desenvolver exemplos práticos em código Java,
 além de criar uma página interativa de simulação de votação com HTML, CSS e JavaScript.
 
-# Segui as explicação! 
+# Segui as explicações do Projeto! 
 ### 1. Cálculo do Quociente Eleitoral (QE):
    O Quociente Eleitoral (QE) é o número mínimo de votos necessários para um partido ou coligação conquistar uma vaga.
    
-   ## OBSERVAÇÃO: Estas Fórmulas parecem complexas, mas para compriende-las precisa estudar bastante para melhor entendimento.
+## OBSERVAÇÃO: Estas fórmulas parecem complexas, mas para compreendê-las é preciso estudar bastante para um melhor entendimento..
 
    - Fórmula:  
    \[
@@ -38,7 +38,7 @@ além de criar uma página interativa de simulação de votação com HTML, CSS 
    - Primeiro, verifica-se quantas vagas cada partido ou coligação conquistou, dividindo o número de votos do partido pelo QE. O resultado inteiro desta divisão corresponde ao número de vagas.
    - Caso ainda restem vagas, elas são distribuídas utilizando o método das sobras, com base nas maiores médias.
 
-# Class SistemaProporcional
+# Class SistemaProporcional - com interface simples
 
 ### Explicação do Código:
 - Interface Gráfica (GUI): O código usa o "Swing" para criar a interface gráfica. Há campos para o usuário inserir o total de votos válidos e o número de cargos.
